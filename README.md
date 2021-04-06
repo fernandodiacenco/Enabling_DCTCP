@@ -72,16 +72,16 @@ Apply the changes with <b>sudo sysctl -p</b>
 
 The adoption of DCTCP (Or BBR) will help your servers keep being able to handle connections with low latency even under stress, without changing infrastructure, while keeping a smaller load on the network switches
 
-You can check and test network conditions by using Iperf3 tool (iperf.fr), there are binaries for Windows and Linux, and Adroid Applications.
+You can check and test network conditions by using Iperf3 tool (iperf.fr), there are binaries for Windows and Linux, and Android Applications.
 
 ---
 
 <b>REFERENCES</b>
 
-DCTCP
-https://web.stanford.edu/~balaji/papers/10datacenter.pdf
-https://www.microsoft.com/en-us/research/publication/data-center-tcp-dctcp/
+    DCTCP
+    https://web.stanford.edu/~balaji/papers/10datacenter.pdf
+    https://www.microsoft.com/en-us/research/publication/data-center-tcp-dctcp/
 
-BBR
-https://github.com/google/bbr
-https://research.google/pubs/pub45646/
+    BBR
+    https://github.com/google/bbr
+    https://research.google/pubs/pub45646/
